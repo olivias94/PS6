@@ -139,6 +139,7 @@ public class PersonOverviewController {
         boolean okClicked = mainApp.showPersonEditDialog(tempPerson);
         if (okClicked) {
         	//PS6 - Calling the addPerson method
+        	 
         	PersonDAL.addPerson(tempPerson);        	
             mainApp.getPersonData().add(tempPerson);
         }

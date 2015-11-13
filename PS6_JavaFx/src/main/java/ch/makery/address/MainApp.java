@@ -45,8 +45,7 @@ public class MainApp extends Application {
      * Constructor
      */
     public MainApp() {
-        // Add some sample data
-    	
+     
     	ArrayList<PersonDomainModel> people = PersonDAL.getPersons();
     	
     	for (PersonDomainModel p: people)
